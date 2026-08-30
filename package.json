@@ -1,0 +1,51 @@
+{
+  "name": "paletteq",
+  "version": "0.1.0",
+  "description": "Extract gorgeous color palettes from any image, right in your terminal. Pure TypeScript PNG decoder + k-means palette extraction. Zero dependencies.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "paletteq": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "fixtures": "node scripts/make-fixture.mjs",
+    "test": "npm run build && node scripts/make-fixture.mjs && node test/png.test.mjs && node test/quantize.test.mjs && node test/render.test.mjs && node test/cli.test.mjs",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v01dst/paletteq.git"
+  },
+  "keywords": [
+    "cli",
+    "color",
+    "palette",
+    "image",
+    "png",
+    "terminal",
+    "ansi"
+  ],
+  "author": "v01dst",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "typescript": "^5.9.3"
+  }
+}

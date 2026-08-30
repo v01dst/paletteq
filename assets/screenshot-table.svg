@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="329" viewBox="0 0 560 329" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace">
+<defs><filter id="sh" x="-15%" y="-15%" width="130%" height="135%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/></filter><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a2030"/><stop offset="1" stop-color="#0d1117"/></linearGradient><linearGradient id="tb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3140"/><stop offset="1" stop-color="#20262f"/></linearGradient></defs>
+<rect x="18" y="16" width="524" height="297" rx="13" fill="url(#bg)" filter="url(#sh)" stroke="#30363d"/>
+<path d="M 18 29 a 13 13 0 0 1 13 -13 h 498 a 13 13 0 0 1 13 13 v 17 h -524 z" fill="url(#tb)"/>
+<circle cx="44" cy="39" r="6.5" fill="#ff5f57"/>
+<circle cx="68" cy="39" r="6.5" fill="#febc2e"/>
+<circle cx="92" cy="39" r="6.5" fill="#28c840"/>
+<text x="280" y="44" text-anchor="middle" font-size="14" fill="#9aa4b2">paletteq — palette report</text>
+<line x1="18" y1="64" x2="542" y2="64" stroke="#1c2128" stroke-width="1"/>
+<text x="26.0" y="86.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >palette — 8 colors (ranked by share)</tspan></text>
+<text x="26.0" y="128.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >   1  </tspan><tspan style="color:rgb(111,116,197);" >████████████</tspan><tspan style="color:#c9d1d9;" >  #6f74c5   17.7%   text #000000</tspan></text>
+<text x="26.0" y="149.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >   2  </tspan><tspan style="color:rgb(63,166,199);" >████████████</tspan><tspan style="color:#c9d1d9;" >  #3fa6c7   16.8%   text #000000</tspan></text>
+<text x="26.0" y="170.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >   3  </tspan><tspan style="color:rgb(62,147,139);" >████████████</tspan><tspan style="color:#c9d1d9;" >  #3e938b   12.8%   text #000000</tspan></text>
+<text x="26.0" y="191.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >   4  </tspan><tspan style="color:rgb(172,84,148);" >████████████</tspan><tspan style="color:#c9d1d9;" >  #ac5494   11.1%   text #ffffff</tspan></text>
+<text x="26.0" y="212.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >   5  </tspan><tspan style="color:rgb(88,66,148);" >████████████</tspan><tspan style="color:#c9d1d9;" >  #584294   11.1%   text #ffffff</tspan></text>
+<text x="26.0" y="233.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >   6  </tspan><tspan style="color:rgb(173,134,57);" >████████████</tspan><tspan style="color:#c9d1d9;" >  #ad8639   10.7%   text #000000</tspan></text>
+<text x="26.0" y="254.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >   7  </tspan><tspan style="color:rgb(127,56,104);" >████████████</tspan><tspan style="color:#c9d1d9;" >  #7f3868   10.4%   text #ffffff</tspan></text>
+<text x="26.0" y="275.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >   8  </tspan><tspan style="color:rgb(127,137,135);" >████████████</tspan><tspan style="color:#c9d1d9;" >  #7f8987    9.3%   text #000000</tspan></text>
+</svg>

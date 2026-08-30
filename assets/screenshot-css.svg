@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="350" viewBox="0 0 560 350" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace">
+<defs><filter id="sh" x="-15%" y="-15%" width="130%" height="135%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/></filter><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a2030"/><stop offset="1" stop-color="#0d1117"/></linearGradient><linearGradient id="tb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3140"/><stop offset="1" stop-color="#20262f"/></linearGradient></defs>
+<rect x="18" y="16" width="524" height="318" rx="13" fill="url(#bg)" filter="url(#sh)" stroke="#30363d"/>
+<path d="M 18 29 a 13 13 0 0 1 13 -13 h 498 a 13 13 0 0 1 13 13 v 17 h -524 z" fill="url(#tb)"/>
+<circle cx="44" cy="39" r="6.5" fill="#ff5f57"/>
+<circle cx="68" cy="39" r="6.5" fill="#febc2e"/>
+<circle cx="92" cy="39" r="6.5" fill="#28c840"/>
+<text x="280" y="44" text-anchor="middle" font-size="14" fill="#9aa4b2">paletteq — export to CSS</text>
+<line x1="18" y1="64" x2="542" y2="64" stroke="#1c2128" stroke-width="1"/>
+<text x="26.0" y="86.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >/* paletteq — 8 colors */</tspan></text>
+<text x="26.0" y="107.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >:root {</tspan></text>
+<text x="26.0" y="128.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >  --palette-1: #6f74c5;</tspan></text>
+<text x="26.0" y="149.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >  --palette-2: #3fa6c7;</tspan></text>
+<text x="26.0" y="170.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >  --palette-3: #3e938b;</tspan></text>
+<text x="26.0" y="191.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >  --palette-4: #ac5494;</tspan></text>
+<text x="26.0" y="212.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >  --palette-5: #584294;</tspan></text>
+<text x="26.0" y="233.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >  --palette-6: #ad8639;</tspan></text>
+<text x="26.0" y="254.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >  --palette-7: #7f3868;</tspan></text>
+<text x="26.0" y="275.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >  --palette-8: #7f8987;</tspan></text>
+<text x="26.0" y="296.0" xml:space="preserve">
+<tspan style="color:#c9d1d9;" >}</tspan></text>
+</svg>
