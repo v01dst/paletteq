@@ -17,6 +17,4 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm ci
-      - run: npm run build
-      - run: node scripts/make-fixture.mjs
-      - run: node --test test/
+      - run: npm test
